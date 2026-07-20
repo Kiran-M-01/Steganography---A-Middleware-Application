@@ -9,6 +9,16 @@
         <a class="nav-link" href="/home">Home</a>
         <a class="nav-link" href="/encode">Encryption</a>
         <a class="nav-link" href="/decode">Decryption</a>
+
+        <a class="nav-link"
+        href="https://stego-analyzer-service.onrender.com/analyze-web"
+        target="_blank"
+        rel="noopener noreferrer">
+        <i class="fa-solid fa-magnifying-glass"></i> Image Analysis
+        </a>
+
+
+
         <% if(isAdmin) { %>
           <form method="POST" action="/admin/logout" style="display: inline;">
             <button type="submit" class="nav-link btn btn-link" style="border: none; background: none; padding: 0.5rem 1rem;">Logout</button>
